@@ -1,5 +1,5 @@
-    const button5= document.getElementById('btn5')
-    button5.addEventListener('click', ()=>{
+    const centerButton= document.getElementById('btn5')
+    centerButton.addEventListener('click', ()=>{
         const one= document.getElementsByClassName('btn')[0].innerHTML
         const two= document.getElementsByClassName('btn')[1].innerHTML
         const three= document.getElementsByClassName('btn')[2].innerHTML
