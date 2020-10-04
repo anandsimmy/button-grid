@@ -1,0 +1,19 @@
+    const button5= document.getElementById('btn5')
+    button5.addEventListener('click', ()=>{
+        const one= document.getElementsByClassName('btn')[0].innerHTML
+        const two= document.getElementsByClassName('btn')[1].innerHTML
+        const three= document.getElementsByClassName('btn')[2].innerHTML
+        const four= document.getElementsByClassName('btn')[3].innerHTML
+        const six= document.getElementsByClassName('btn')[5].innerHTML
+        const seven= document.getElementsByClassName('btn')[6].innerHTML
+        const eight= document.getElementsByClassName('btn')[7].innerHTML
+        const nine= document.getElementsByClassName('btn')[8].innerHTML
+        document.getElementById('btn1').innerHTML= four
+        document.getElementById('btn2').innerHTML= one
+        document.getElementById('btn3').innerHTML= two
+        document.getElementById('btn4').innerHTML= seven
+        document.getElementById('btn6').innerHTML= three
+        document.getElementById('btn7').innerHTML= eight
+        document.getElementById('btn8').innerHTML= nine
+        document.getElementById('btn9').innerHTML= six
+    })
